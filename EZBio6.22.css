@@ -1,48 +1,42 @@
 body {
 	background-color: #FFF8DC;
 }
-
 header {
-	font-size: 40px;
+	font-size: 20px;
 	text-align: center;
 	background-color: black;
 	color: white;
+	height: 50px;
+	padding: 10px 10px;
+	margin: -10px;
 }
-
+h1 {
+	margin: 0px;
+}
+section {
+	display: inline-block;
+	width: 65%;
+	text-align: left;
+	position: relative;
+	margin-left: 20px;
+}
 h2 {
 	font-size: 32px;
-	font-style: Courier
-	text-align: right;
-	margin-left: 10px;
-
+	font-style: Courier;
 }
-
 img {
-	display: block;
-	float: left;
 	width: 225px;
 	height: 300px;
-	padding-right: 10px;
-	margin-left: 10px;
-
 }
-
-article {
-	text-align: left;
-	display: inline;
-	width: 45%;
-	float: left;
-	position: relative;
-	top: -15px;
+p {
+	float: right;
 }
-
 address {
 	text-align: left;
-	display: inline;
+	display: inline-block;
 	width: 30%;
-	float: right;
+	margin-left: 15px;
 	font-style: normal;
 	position: relative;
-	top: -85px;
-
+	float: right;
 }
